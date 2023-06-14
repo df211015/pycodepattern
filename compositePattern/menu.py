@@ -17,9 +17,7 @@ class Menu(Leaf):
         return self._childNodes
 
     def display(self, level):
-        str = ""
-        for i in range(level):
-            str += "-"
+        str = "-" * level
         print(f"{str}name:{self.name}")
         for item in self._childNodes:
             item.display(level + 1)

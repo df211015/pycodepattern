@@ -16,7 +16,5 @@ class Func(Leaf):
         pass
 
     def display(self, level):
-        str = ""
-        for i in range(level):
-            str += "-"
+        str = "-" * level
         print(f"{str}name:{super().name}")
