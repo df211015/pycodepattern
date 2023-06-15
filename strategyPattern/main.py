@@ -1,5 +1,4 @@
 from strategyPattern.strategyOfTxt import StrategyOfTxt
-from strategyPattern.strategyOfWord import StrategyOfWord
 
 """
 策略模式demo
