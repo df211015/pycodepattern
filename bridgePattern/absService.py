@@ -1,8 +1,8 @@
-from bridgePattern.absImpliment import AbsImpliment
+from bridgePattern.absImplement import AbsImplement
 
 
 class AbsService:
-    def __init__(self, handle: AbsImpliment):
+    def __init__(self, handle: AbsImplement):
         self._handle = handle
 
     @property

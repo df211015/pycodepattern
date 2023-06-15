@@ -1,9 +1,9 @@
-from bridgePattern.absImpliment import AbsImpliment
+from bridgePattern.absImplement import AbsImplement
 from bridgePattern.absService import AbsService
 
 
 class ConcreteService(AbsService):
-    def __init__(self, handle: AbsImpliment):
+    def __init__(self, handle: AbsImplement):
         super().__init__(handle)
 
     def process(self, param):
