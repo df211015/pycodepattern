@@ -9,10 +9,13 @@ from chainPattern.param import Param
 """
 if __name__ == "__main__":
     param = Param("aaa", EType.third)
+
     first = HandleOfFirst()
     second = HandleOfSecond()
     third = HandleOfThird()
+
     first.nextHandle = second
     second.nextHandle = third
     third.nextHandle = None
+
     first.process(param)
