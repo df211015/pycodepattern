@@ -8,7 +8,7 @@ from chainPattern.param import Param
 职责链模式demo
 """
 if __name__ == "__main__":
-    param = Param("aaa", EType.seconde)
+    param = Param("aaa", EType.third)
     first = HandleOfFirst()
     second = HandleOfSecond()
     third = HandleOfThird()
