@@ -2,7 +2,7 @@
 ## python设计模式
 - 创建型模式
   - 
-      简单工厂模式
+      [简单工厂模式](https://github.com/df211015/pycodepattern/tree/master/factoryPattern/simpleFactory)
       工厂方法模式
       抽象工厂模式
       建造者模式
