@@ -3,6 +3,7 @@ from memoPattern.originator import Originator
 
 """
 备忘录模式demo
+涉及角色:发起人(Originator)角色、备忘录(Memo)角色、负责人(Caretaker)角色
 """
 if __name__ == "__main__":
     originator = Originator()
