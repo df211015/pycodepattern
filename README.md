@@ -23,7 +23,7 @@
   - [命令模式](https://github.com/df211015/pycodepattern/tree/master/commandPattern)
   - [状态模式](https://github.com/df211015/pycodepattern/tree/master/statusPattern)
   - [中介者模式](https://github.com/df211015/pycodepattern/tree/master/mediatorPattern)
-  - 访问者模式
-  - 迭代子模式
+  - [访问者模式](https://github.com/df211015/pycodepattern/tree/master/visitorPattern)
+  - 迭代器模式
   - 备忘录模式
   - 解释器模式
