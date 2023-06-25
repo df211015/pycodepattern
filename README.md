@@ -26,4 +26,4 @@
   - [访问者模式](https://github.com/df211015/pycodepattern/tree/master/visitorPattern)
   - [备忘录模式](https://github.com/df211015/pycodepattern/tree/master/memoPattern)
   - [迭代器模式](https://github.com/df211015/pycodepattern/tree/master/iteratorPattern)
-  - 解释器模式
+  - [解释器模式](https://github.com/df211015/pycodepattern/tree/master/interpretedPattern)
