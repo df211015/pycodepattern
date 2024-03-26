@@ -9,6 +9,7 @@ from statusPattern.statusOfStart import StatusOfStart
 class Context:
     def __init__(self):
         self._indexOfStatus = None
+        # 将枚举值与相应的状态类关联起来
         self._dicStatus = {EStatus.Ready.index: StatusOfReady(),
                            EStatus.Start.index: StatusOfStart(),
                            EStatus.Run.index: StatusOfRun(),

@@ -1,5 +1,9 @@
 import enum
 
+"""
+定义枚举
+"""
+
 
 class EStatus(enum.Enum):
     Ready = 1, "开始"
